@@ -1,0 +1,398 @@
+.body {
+    background: linear-gradient(to right, rgb(0, 255, 242), rgb(0, 19, 128));
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* From Uiverse.io by Yaya12085 */
+.form-container {
+
+    width: 480px;
+    border-radius: 0.75rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 2rem;
+    color: rgba(243, 244, 246, 1);
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    color: rgba(156, 163, 175, 1);
+    margin-bottom: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(55, 65, 81, 1);
+    outline: 0;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 0.75rem 1rem;
+    color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+    border-color: rgba(167, 139, 250);
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(156, 163, 175, 1);
+    margin: 8px 0 14px 0;
+}
+
+.forgot a,
+.signup a {
+    color: rgba(243, 244, 246, 1);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot a:hover,
+.signup a:hover {
+    text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+.sign {
+    display: block;
+    width: 100%;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+}
+
+.social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgba(55, 65, 81, 1);
+}
+
+.social-message .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+}
+
+.social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #fff;
+}
+
+.signup {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(156, 163, 175, 1);
+}
+
+.exit {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.exit:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.exit {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.exit:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.social-icons:hover{
+    cursor: pointer;
+    color: aqua;
+}
+/* register */
+.acc {
+    color: antiquewhite;
+}
+
+.acc:hover {
+    cursor: pointer;
+    color: rgba(255, 55, 0, 0.791);
+}
+
+
+
+/* animal animatiion */
+/* From Uiverse.io by Novaxlo */
+.capybaraloader {
+    width: 20em;
+    height: 20em;
+    position: relative;
+    z-index: 1;
+    --color: rgb(204, 125, 45);
+    --color2: rgb(83, 56, 28);
+    transform: scale(0.75);
+}
+
+.capybara {
+    width: 100%;
+    height: 7.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.loader {
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.capy {
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(var(--color), 90%, var(--color2));
+    border-radius: 45%;
+    position: relative;
+    z-index: 1;
+    animation: movebody 1s linear infinite;
+}
+
+.capyhead {
+    width: 7.5em;
+    height: 7em;
+    bottom: 0em;
+    right: 0em;
+    position: absolute;
+    background-color: var(--color);
+    z-index: 3;
+    border-radius: 3.5em;
+    box-shadow: -1em 0em var(--color2);
+    animation: movebody 1s linear infinite;
+}
+
+.capyear {
+    width: 2em;
+    height: 2em;
+    background: linear-gradient(-45deg, var(--color), 90%, var(--color2));
+    top: 0em;
+    left: 0em;
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.capyear:nth-child(2) {
+    left: 5em;
+    background: linear-gradient(25deg, var(--color), 90%, var(--color2));
+}
+
+.capyear2 {
+    width: 100%;
+    height: 1em;
+    background-color: var(--color2);
+    bottom: 0em;
+    left: 0.5em;
+    border-radius: 100%;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.capymouth {
+    width: 3.5em;
+    height: 2em;
+    background-color: var(--color2);
+    position: absolute;
+    bottom: 0em;
+    left: 2.5em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.capylips {
+    width: 0.25em;
+    height: 0.75em;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+    background-color: var(--color);
+}
+
+.capylips:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.capyeye {
+    width: 2em;
+    height: 0.5em;
+    background-color: var(--color2);
+    position: absolute;
+    bottom: 3.5em;
+    left: 1.5em;
+    border-radius: 5em;
+    transform: rotate(45deg);
+}
+
+.capyeye:nth-child(4) {
+    transform: rotate(-45deg);
+    left: 5.5em;
+    width: 1.75em;
+}
+
+.capyleg {
+    width: 6em;
+    height: 5em;
+    bottom: 0em;
+    left: 0em;
+    position: absolute;
+    background: linear-gradient(var(--color), 95%, var(--color2));
+    z-index: 2;
+    border-radius: 2em;
+    animation: movebody 1s linear infinite;
+}
+
+.capyleg2 {
+    width: 1.75em;
+    height: 3em;
+    bottom: 0em;
+    left: 3.25em;
+    position: absolute;
+    background: linear-gradient(var(--color), 80%, var(--color2));
+    z-index: 2;
+    border-radius: 0.75em;
+    box-shadow: inset 0em -0.5em var(--color2);
+    animation: moveleg 1s linear infinite;
+}
+
+.capyleg2:nth-child(3) {
+    width: 1.25em;
+    left: 0.5em;
+    height: 2em;
+    animation: moveleg2 1s linear infinite 0.075s;
+}
+
+@keyframes moveleg {
+    0% {
+        transform: rotate(-45deg) translateX(-5%);
+    }
+
+    50% {
+        transform: rotate(45deg) translateX(5%);
+    }
+
+    100% {
+        transform: rotate(-45deg) translateX(-5%);
+    }
+}
+
+@keyframes moveleg2 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes movebody {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(2%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.loaderline {
+    width: 50em;
+    height: 0.5em;
+    border-top: 0.5em dashed var(--color2);
+    animation: moveline 10s linear infinite;
+}
+
+@keyframes moveline {
+    0% {
+        transform: translateX(0%);
+        opacity: 0%;
+    }
+
+    5% {
+        opacity: 100%;
+    }
+
+    95% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        transform: translateX(-70%);
+    }
+}
